@@ -1,5 +1,5 @@
 impl: 'http://github.com/blend-os/tracks/raw/main'
 track: 'default-gnome'
 
-aur_packages:
+aur-packages:
   - 'google-chrome'
