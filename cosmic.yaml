@@ -73,7 +73,7 @@ commands:
   - 'pacman --noconfirm -Rns cups'
 
   # Nvim configuration files
-  - 'mkdir /home/masrobot/.config/nvim'
+  # - 'mkdir /home/masrobot/.config/nvim'
 
 services:
   # Services to enable
