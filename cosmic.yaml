@@ -28,8 +28,8 @@ packages:
   - 'cosmic-panel'
   - 'cosmic-player'
   - 'cosmic-store'
-  - 'cosmic-wallpaper'
-  - 'cosmic-workspace'
+  - 'cosmic-wallpapers'
+  - 'cosmic-workspaces'
   - 'cosmic-randr'
 
   # Setup and User Components
