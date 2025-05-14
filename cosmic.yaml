@@ -1,4 +1,4 @@
-mpl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/blend-os/tracks/raw/main'
 track: 'blendos-base'
 
 packages:
@@ -57,6 +57,8 @@ packages:
   # Additional Utilities
   - 'cmatrix'
   - 'figlet'
+  - 'vim'
+  - 'nvim'
 
 aur-packages:
   # Additional AUR Packages
@@ -67,6 +69,7 @@ aur-packages:
   - 'quickgui-bin'
   - 'visual-studio-code-bin'
   - 'google-chrome'
+
 commands:
   # Cleanup and configuration commands
   - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.cosmic.Store.metainfo.xml" ! -name "org.cosmic.Store.Plugin.Fwupd.metainfo.xml" -type f -exec rm -f {} +'
