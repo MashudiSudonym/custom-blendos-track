@@ -60,6 +60,7 @@ packages:
   - 'figlet'
   - 'vim'
   - 'nvim'
+  - 'btop'
 
 aur-packages:
   # Additional AUR Packages
@@ -70,6 +71,9 @@ commands:
   - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.cosmic.Store.metainfo.xml" ! -name "org.cosmic.Store.Plugin.Fwupd.metainfo.xml" -type f -exec rm -f {} +'
   - 'locale-gen'
   - 'pacman --noconfirm -Rns cups'
+
+  # Nvim configuration files
+  - 'mkdir /home/masrobot/.config/nvim'
 
 services:
   # Services to enable
