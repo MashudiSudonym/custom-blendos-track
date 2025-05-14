@@ -1,5 +1,2 @@
 impl: http://github.com/blend-os/tracks/raw/main
-track: xfce
-
-aur-packages:
-    - 'google-chrome'
+track: default-gnome
