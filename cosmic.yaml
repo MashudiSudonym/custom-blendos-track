@@ -8,6 +8,7 @@ packages:
   - 'cosmic-settings'
   - 'cosmic-app-library'
   - 'xdg-desktop-portal-cosmic'
+  - 'power-profiles-daemon'
 
   # COSMIC Applications
   - 'alacritty'
@@ -66,8 +67,3 @@ packages:
 services:
   # Services to enable
   - 'cosmic-greeter'
-  - 'tlp'
-
-commands:
-  # enable tlp
-  - 'tlp start'
