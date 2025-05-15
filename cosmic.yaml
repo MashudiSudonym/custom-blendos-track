@@ -70,11 +70,6 @@ packages:
   - 'nvim'
   - 'btop'
 
-aur-packages:
-  # font
-  - 'ttf-joypixels'
-
-
 services:
   # Services to enable
   - 'cosmic-greeter'
