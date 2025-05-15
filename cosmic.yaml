@@ -59,6 +59,9 @@ packages:
   - 'nerd-fonts'
   - 'noto-fonts-emoji'
   - 'ttf-firacode-nerd'
+  - 'gnu-free-fonts'
+  - 'ttf-arphic-uming'
+  - 'ttf-indic-otf'
 
   # Virtualization and Container Support
   - 'flatpak'
