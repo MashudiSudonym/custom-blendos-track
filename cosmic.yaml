@@ -57,7 +57,8 @@ packages:
   # font handle
   - 'ttf-font-awesome'
   - 'nerd-fonts'
-  - 'noto-fonts-emoji' 
+  - 'noto-fonts-emoji'
+  - 'ttf-firacode-nerd'
 
   # Virtualization and Container Support
   - 'flatpak'
