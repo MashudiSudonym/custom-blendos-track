@@ -61,8 +61,7 @@ packages:
   - 'vim'
   - 'nvim'
   - 'btop'
-  - 'tlp'
-  - 'tlp-rdw'
+
 
 services:
   # Services to enable
