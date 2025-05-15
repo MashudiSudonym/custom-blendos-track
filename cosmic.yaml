@@ -51,6 +51,13 @@ packages:
   - 'grilo-plugins'
   - 'tracker3-miners'
   - 'rygel'
+  - 'ffmpegthumbnailer'
+  - 'ffmpegthumbs'
+
+  # font handle
+  - 'ttf-font-awesome'
+  - 'nerd-fonts'
+  - 'noto-fonts-emoji' 
 
   # Virtualization and Container Support
   - 'flatpak'
@@ -62,7 +69,22 @@ packages:
   - 'nvim'
   - 'btop'
 
+aur-packages:
+  # font
+  - 'ttf-joypixels'
+
 
 services:
   # Services to enable
-  - 'cosmic-greeter'
+  - 'cosmic-greeter'i
+
+commands:
+  - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
+  - 'rm -f /usr/share/applications/stoken-gui.desktop'
+  - 'rm -f /usr/share/applications/stoken-gui-small.desktop'
+  - 'rm -f /usr/share/applications/qvidcap.desktop'
+  - 'rm -f /usr/share/applications/qv4l2.desktop'
+  - 'rm -f /usr/share/applications/bvnc.desktop'
+  - 'rm -f /usr/share/applications/electron*.desktop'
+  - 'rm -f /usr/share/applications/avahi-discover.desktop'
+  - 'rm -f /usr/share/applications/bssh.desktop'
