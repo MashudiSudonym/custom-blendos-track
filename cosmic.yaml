@@ -7,7 +7,6 @@ packages:
   - 'cosmic-settings-daemon'
   - 'cosmic-settings'
   - 'cosmic-app-library'
-  - 'power-profiles-daemon'
   - 'xdg-desktop-portal-cosmic'
 
   # COSMIC Applications
