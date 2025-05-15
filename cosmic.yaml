@@ -61,11 +61,13 @@ packages:
   - 'vim'
   - 'nvim'
   - 'btop'
-
-aur-packages:
-  # Additional AUR Packages
-  - 'google-chrome'
+  - 'tlp'
+  - 'tlp-rdw'
 
 services:
   # Services to enable
-  - 'cosmic-greeter'
+  #- 'cosmic-greeter'
+
+commands:
+  # enable tlp
+  - 'systemctl start tlp.service'
